@@ -1,0 +1,12 @@
+const indexPathname = '/blog';
+export const index = {text: 'For you', pathname: indexPathname};
+export const writing = {text: 'Writing', pathname: indexPathname + '/writing'};
+export const user = {text: 'User', pathname: indexPathname + '/user'};
+export const about = {text: 'About me', pathname: indexPathname + '/about'};
+export const SignIn = {text: 'SignIn', pathname: indexPathname + '/sign'};
+export const post = {text: 'Post', pathname: indexPathname + '/post'};
+export const test = {text: 'Test', pathname: indexPathname + '/test'};
+export const touristRoutes = [index, SignIn, post, about, test];
+export const touristVisibleRoutes = [index, about,];
+export const userRoutes = [index, writing, user, post, about, test];
+export const userVisibleRoutes = [index, writing, user, about, test,];

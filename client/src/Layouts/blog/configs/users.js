@@ -1,0 +1,1 @@
+export const tourist = {authority: 0, nickname: 'tourist'};

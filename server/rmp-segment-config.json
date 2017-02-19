@@ -1,0 +1,5 @@
+{
+  "debug": false,
+  "tsChunkSize": 5,
+  "allowCache": true
+}

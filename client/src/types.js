@@ -1,0 +1,12 @@
+export const UPDATE_ROUTES = 'UPDATE_ROUTES';
+export const UPDATE_USER = 'UPDATE_USER';
+export const UPDATE_ACTIVE_PATHNAME = 'UPDATE_ACTIVE_PATHNAME';
+export const UPDATE_POSTS = 'UPDATE_POSTS';
+export const APPEND_POSTS = 'APPEND_POSTS';
+export const ADD_SCROLL_TOP = 'ADD_SCROLL_TOP';
+export const BACK_SCROLL_TOP = 'BACK_SCROLL_TOP';
+export const LOAD_POSTER = 'LOAD_POSTER';
+export const RELOAD_POSTER = 'RELOAD_POSTER';
+export const SELECT_POST = 'SELECT_POST';
+export const RELOAD_USER = 'RELOAD_USER';
+export const REDIRECT_ROUTE = 'REDIRECT_ROUTE';
