@@ -1,3 +1,3 @@
-export const debug = process.env.NODE_ENV !== 'production';
+export const debug = false;
 
-export const publicPath = debug ? '//localhost' : '//139.196.50.70';
+export const publicPath = debug ? '//localhost' : '//chenh0ng.com';
