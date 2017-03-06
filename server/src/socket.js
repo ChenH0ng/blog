@@ -8,7 +8,7 @@ const MongoDBStore = require('connect-mongodb-session')(session);
 const {debug}=require('./configs');
 const store = new MongoDBStore(
 	{
-		uri: 'mongodb://localhost:27017/client',
+		uri: 'mongodb://localhost:27017/blog',
 		collection: 'Sessions',
 	});
 store.on('error', function (e) {

@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/db/context.js"],"names":["module","exports","db"],"mappings":";;AAAAA,OAAOC,OAAP,GAAiB;AACbC,QAAI;AADS,CAAjB","file":"context.js","sourcesContent":["module.exports = {\r\n    db: null,\r\n};"]}

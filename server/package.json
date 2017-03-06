@@ -21,6 +21,6 @@
   },
   "scripts": {
     "b": "babel src --out-dir dist",
-    "d": "babel src --out-dir dist --watch"
+    "d": "babel src --out-dir dev -w  --source-maps"
   }
 }

@@ -2,12 +2,13 @@ import h from '../h';
 import View from './View';
 import Input from './Input';
 import {emptyFunction,} from '../util';
+import './SignIn.css';
 
 const LabelStyle = {
     margin: '24px 0 8px',
 };
 
-export default({style, onSubmit = emptyFunction, ...rest,}) => h('form', {
+export default({style, nSubmit = emptyFunction, ...rest,}) => h('form', {
     ...rest,
     onSubmit: e => {
         e.preventDefault();
@@ -17,14 +18,7 @@ export default({style, onSubmit = emptyFunction, ...rest,}) => h('form', {
             password: elements.password.value,
         });
     },
-    style: {
-        flexDirection: 'column',
-        backgroundColor: '#fff',
-        borderRadius: 5,
-        fontSize: 14,
-        display: 'flex',
-        ...style,
-    },
+    className: 'sign-in',
     children: [
         h(View, {children: 'Username', style: LabelStyle,}),
         h(Input, {name: 'username',}),
